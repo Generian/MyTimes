@@ -121,9 +121,12 @@ body {
 
 .sub_story_image {
   width: 100%;
-  height: 200px;
+  height: 300px;
   display: flex;
   margin-top: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image_sub_1 {
