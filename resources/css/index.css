@@ -2,18 +2,31 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-
-h1 {
-  color: SeaGreen;
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+  align-items: center;
 }
 
-
-p,
-li {
-  font-size: 18px;
+header img {
+  order: 1
+  width: auto;
+  height: auto;
 }
 
+.header_image {
+  width: 70px;
+  height: 60px;
+  padding-left: 50px;
+}
 
-a {
-  text-decoration: none;
+.header_title {
+  order: 2;
+}
+
+.header_nav {
+  order: 3;
 }
